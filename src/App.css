@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.dGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 10px;
+}
+.dFlex {
+  display: flex;
+}
+.textCenter {
+  text-align: center;
+}
+
+.activeToggle {
+  background-color: #85a5fc;
+  color: #ffffff;
+}
